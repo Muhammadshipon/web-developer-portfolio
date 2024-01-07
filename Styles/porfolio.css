@@ -1,7 +1,8 @@
 /*Common share style*/
 
 *{font-family: 'Bungee Spice', sans-serif;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;}
 
   .primary-color{color:#FD6E0A;}
 
@@ -75,7 +76,17 @@ margin-bottom: 20px;}
  /*Main section style*/
 
  /*about section style*/
+
+ main{max-width: 1140px;
+margin: 0px auto;}
  .about{padding: 130px;
 background:#FFF8F3;
 border-radius: 10x;
-margin:130px 0px;}
+margin:130px 0px;
+text-align: center;}
+.about-info-container{
+  display: flex;justify-content: space-between;
+}
+about-info{text-align: center;}
+
+#p-1{padding: 0px 150px;}
